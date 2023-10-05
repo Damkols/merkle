@@ -1,0 +1,25 @@
+{
+  "name": "merkle",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^3.0.0",
+    "hardhat": "^2.18.0"
+  },
+  "dependencies": {
+    "@ethersproject/keccak256": "^5.7.0",
+    "@openzeppelin/contracts": "^4.9.3",
+    "csv-parser": "^3.0.0",
+    "csv-writer": "^1.6.0",
+    "ethers": "^6.7.1",
+    "keccak256": "^1.0.6",
+    "merkletreejs": "^0.3.10"
+  }
+}
